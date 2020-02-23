@@ -17,6 +17,7 @@
 }
 
 .menubar {
+  font-family: "Cormorant Garamond", serif;
   height: 50px;
   width: 100%;
   display: flex;
@@ -25,12 +26,13 @@
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   color: white;
-  background-color: #C9AFDB;
+  background-color: #577399;
   align-items: center;
   direction: column;
 }
 
 .title {
+  font-family: "Cormorant Garamond", serif;
   height: 50px;
   width: 20%;
   color: white;
@@ -124,7 +126,7 @@
 
 
 button {
-  background-color: #C9AFDB;
+  background-color: #577399
   font-family: "Cormorant Garamond", serif;
   color: white;
   border: none;
@@ -137,7 +139,7 @@ button {
   height: auto;
   margin: auto;
   padding: 175px;
-  background-color:#C9AFDB;
+  background-color:#A7ACD9;
 }
 
 #title {
