@@ -134,7 +134,7 @@ button {
 
 .t {
   width: auto;
-  height: 300px;
+  height: auto;
   margin: auto;
   padding: 175px;
   background-color:#C9AFDB;
@@ -156,3 +156,26 @@ button {
 }
 
 
+.t2 {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 175px;
+  background-color:#CDF2C4;
+}
+
+#source1 {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+#source1text {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 50px;
+  text-align: center;
+  
+}
