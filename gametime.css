@@ -135,35 +135,37 @@ button {
 .text {
   color: white;
   font-family: "Cormorant Garamond", serif;
-  font-size: 30px;
+  font-size: 40px;
   width: 100%;
-  height: 300px;
+  height: 750px;
   margin: auto;
   padding: 60px;
   background-color: #E45675;
 }
+
+
 .container{
   width: auto;
-  height: 100px;
+  height: 150px;
   margin: auto;
-  padding: 50px;
-  font-size: 80px;
+  padding: 60px;
+  font-size: 90px;
   background-color:#E45675;
 }
 .type{
   width: auto;
   height: 150px;
   margin: auto;
-  padding: 50px;
+  padding: 90px;
   background-color:#E45675;
 }
 .rules{
   font-family: "Cormorant Garamond", serif;
   width: auto;
-  height: 370px;
+  height: 750px;
   margin: auto;
-  padding: 50px;
-  font-size:30px;
+  padding: 80px;
+  font-size:40px;
   color:white;
   background-color:#EA7469;
 }
