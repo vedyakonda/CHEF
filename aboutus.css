@@ -16,7 +16,6 @@
   position: fixed;
 }
 
-
 .menubar {
   height: 50px;
   width: 100%;
@@ -123,6 +122,7 @@
   color: #C71585;
 }
 
+
 button {
   background-color: #C9AFDB;
   font-family: "Cormorant Garamond", serif;
@@ -132,82 +132,171 @@ button {
   font-size-adjust: 20px;
 }
 
+.t {
+  width: auto;
+  height: 300px;
+  margin: auto;
+  padding: 175px;
+  background-color:#C9AFDB;
+}
 
-.intro {
+#bigtitle {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+#smaller1 {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.show {
+  visibility: visible;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+img{
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+p{
+  color:white;
+  font-family:'Cormorant Garamond', serif;
+  font-size: 25px;
+}
+
+img{
+  width:auto;
+  height:400px;
+}
+.slideshow-container {
+  width:100%;
+  height:400px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top:500px;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+h4{
+  font-size:50px;
+}
+.flag{
+  height:300px;
+  width:35%;
+}
+p{
+  font-color: white;
+}
+.goabroad{
+  height:50px;
+  width:250px;
+  object-fit:cover;
+}
+.go{
+  border:none;
+  border-top:7px dashed;
+  color:#fff;
+  display:flex;
+  justify-content:space-between;
+  float: left;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.container{
+   width: auto;
+  height: auto;
+  margin: auto;
+  padding: 175px;
+  background-color:#C9AFDB;
+}
+h4{
+  color:white;
+}
+.farmworkers{
   width: auto;
   height: auto;
   margin: auto;
   padding: 175px;
-  background-color: #C9AFDB;
-}
-
-#beginning {
-  color: white;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 20px;
-  text-align: center;
-}
-
-#next1 {
-  color: white;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 20px;
-  text-align: center;
-}
-
-
-
-.fact1 {
-  background-color: #7B2589;
-  color: white;
-  font-size: 15px;
-  font-family: "Cormorant Garamond", serif;
-  width: 100%;
-  height: 300px;
-  margin: auto;
-  text-align: center;
-}
-
-.fact2 {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  background-color: #7B2589;
-  color: white;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 15px;
-  text-align: center;
-}
-
-.fact3 {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  background-color: #7B2589;
-  color: white;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 15px;
-  text-align: center;
-}
-
-.fact4 {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  background-color: #7B2589;
-  color: white;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 15px;
-  text-align: center;
-}
- 
-.fact5{
-  width: 100%;
-  height: auto;
-  margin: auto;
-  background-color: #7B2589;
-  color: white;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 15px;
-  text-align: center;
+  background-color:gray;
 }
