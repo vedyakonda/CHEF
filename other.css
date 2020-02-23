@@ -1,0 +1,357 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.fullpage{
+  background-color:#FFFFFF;
+  width: 100%;
+  height:1000px;
+  margin: auto;
+}
+ .menubar{
+  font-family: 'Cormorant Garamond', serif;
+   justify-content: space-between;
+   margin-top: 3%;
+   position:fixed;
+}
+
+.map {
+  width: 100%;
+/*   height: 100%; */
+  display:block;
+  margin-top:10%;
+  margin-right:150px;
+  position:absolute;
+
+}
+.container {
+  position:relative;
+  width: 100vw;
+/*   height:100%;
+  background-size:100vw; */
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+.orb {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+/*   top: 50%;
+  left: 50%; */
+  border-radius: 90%;
+  opacity: 0.4;
+}
+
+.orb:hover{
+  transform:scale(1.1);
+  opacity: 1;
+  transition: 2s ;
+
+}
+
+
+.menubar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  color: white;
+  background-color:#C9AFDB;
+  align-items: center;
+  direction: column;
+  }
+
+
+.title{
+  height: 50px;
+  width: 20%;
+  color: white;
+  font-size:20px;
+  text-align: left;
+  padding-left: 5%;
+}
+
+#home{
+  width: 18%;
+  padding:5px;
+  float: right;
+  margin: 20px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+
+}
+
+#home:hover {
+  margin-top:2px;
+
+}
+#home h2:hover{
+  color: #C71585;
+}
+
+#gametime{
+  color: white;
+  width: 18%;
+  padding:5px;
+  margin: 10px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+#gametime:hover {
+  margin-top:2px;
+}
+#gametime h2:hover{
+  color: #C71585;
+}
+
+
+#other{
+  color: white;
+  width: 18%;
+  padding:1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+
+}
+#other:hover {
+  margin-top:2px;
+}
+#other h2:hover{
+  color: #C71585;
+}
+
+#aboutUs{
+  color: white;
+  width: 18%;
+  padding:1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+
+}
+
+#aboutUs:hover {
+  margin-top:2px;
+}
+#aboutUs h2:hover{
+  color: #C71585;
+}
+
+#mentorship{
+  color: white;
+  width: 18%;
+  padding:1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+
+}
+
+#mentorship:hover {
+  margin-top:2px;
+}
+#mentorship h2:hover{
+  color: #C71585;
+}
+
+
+body{
+  background-color:#C9AFDB;
+}
+button{
+  background-color:#C9AFDB;
+  font-family: 'Cormorant Garamond', serif;
+  color:white;
+  border:none;
+  font-size:15px;
+  font-size-adjust: 20px;
+
+}
+
+h4{
+  color:white;
+  font-family:'Cormorant Garamond', serif;
+  font-size:30px;
+}
+
+/*
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+/* .myPopup{
+  top:300px;
+  right:200px;
+} */
+/* .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+} */
+
+/* .popuptext:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:black;
+} */
+
+.show {
+  visibility: visible;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+img{
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+p{
+  color:white;
+  font-family:'Cormorant Garamond', serif;
+  font-size: 25px;
+}
+
+img{
+  width:80%;
+  height:700px;
+}
+.slideshow-container {
+  width:100%;
+  height:700px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+/*   right:50%; */
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #C9AFDB;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+h4{
+  font-size:50px;
+}
+.flag{
+  height:300px;
+  width:35%;
+}
+
+p{
+  font-color: white;
+}
+.goabroad{
+  height:50px;
+  width:250px;
+  object-fit:cover;
+}
+.go{
+  border:none;
+  border-top:7px dashed;
+  color:#fff;
+  display:flex;
+  justify-content:space-between;
+  float: left;
+  margin-left:0px;
+  margin-right:0px;
+}
+.text{
+  margin:80px;
+}
