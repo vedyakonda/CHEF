@@ -76,6 +76,7 @@
 
 #other {
   color: white;
+  background-color:#6D5569;
   width: 18%;
   padding: 1px;
   margin: 15px;
@@ -126,7 +127,7 @@
 
 
 button {
-  background-color: #577399
+  background-color: #6D5569
   font-family: "Cormorant Garamond", serif;
   color: white;
   border: none;
