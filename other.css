@@ -165,17 +165,65 @@ button {
 }
 
 #source1 {
-  color: white;
+
   font-family: "Cormorant Garamond", serif;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   
 }
 
 #source1text {
-  color: white;
+  color: #5D737E;
   font-family: "Cormorant Garamond", serif;
-  font-size: 50px;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.t3 {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 175px;
+  background-color:#84DCC6;
+}
+
+#source2 {
+  
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+#source2text {
+  color: #5D737E;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.t4 {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 175px;
+  background-color:#9F838C;
+}
+
+#source3 {
+  
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+#source3text {
+  color: #5D737E;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
   text-align: center;
   
 }
