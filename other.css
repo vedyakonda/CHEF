@@ -1,34 +1,33 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.fullpage{
-  background-color:#FFFFFF;
+.fullpage {
+  background-color: #FFFFFF;
   width: 100%;
-  height:1000px;
+  height: 1000px;
   margin: auto;
 }
- .menubar{
-  font-family: 'Cormorant Garamond', serif;
-   justify-content: space-between;
-   margin-top: 3%;
-   position:fixed;
+.menubar {
+  font-family: "Cormorant Garamond", serif;
+  justify-content: space-between;
+  margin-top: 3%;
+  position: fixed;
 }
 
 .map {
   width: 100%;
-/*   height: 100%; */
-  display:block;
-  margin-top:10%;
-  margin-right:150px;
-  position:absolute;
-
+  /*   height: 100%; */
+  display: block;
+  margin-top: 10%;
+  margin-right: 150px;
+  position: absolute;
 }
 .container {
-  position:relative;
+  position: relative;
   width: 100vw;
-/*   height:100%;
+  /*   height:100%;
   background-size:100vw; */
   background-repeat: no-repeat;
   margin-top: 50px;
@@ -37,19 +36,17 @@
   width: 30px;
   height: 30px;
   position: absolute;
-/*   top: 50%;
+  /*   top: 50%;
   left: 50%; */
   border-radius: 90%;
   opacity: 0.4;
 }
 
-.orb:hover{
-  transform:scale(1.1);
+.orb:hover {
+  transform: scale(1.1);
   opacity: 1;
-  transition: 2s ;
-
+  transition: 2s;
 }
-
 
 .menubar {
   height: 50px;
@@ -60,128 +57,119 @@
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   color: white;
-  background-color:#C9AFDB;
+  background-color: #C9AFDB;
   align-items: center;
   direction: column;
-  }
+}
 
-
-.title{
+.title {
   height: 50px;
   width: 20%;
   color: white;
-  font-size:20px;
+  font-size: 20px;
   text-align: left;
   padding-left: 5%;
 }
 
-#home{
+#home {
   width: 18%;
-  padding:5px;
+  padding: 5px;
   float: right;
   margin: 20px;
   -webkit-transition: margin 0.5s ease-out;
   -moz-transition: margin 0.5s ease-out;
   -o-transition: margin 0.5s ease-out;
-
 }
 
 #home:hover {
-  margin-top:2px;
-
+  margin-top: 2px;
 }
-#home h2:hover{
+#home h2:hover {
   color: #C71585;
 }
 
-#gametime{
+#gametime {
   color: white;
   width: 18%;
-  padding:5px;
+  padding: 5px;
   margin: 10px;
   -webkit-transition: margin 0.5s ease-out;
   -moz-transition: margin 0.5s ease-out;
   -o-transition: margin 0.5s ease-out;
 }
 #gametime:hover {
-  margin-top:2px;
+  margin-top: 2px;
 }
-#gametime h2:hover{
+#gametime h2:hover {
   color: #C71585;
 }
 
-
-#other{
+#other {
   color: white;
   width: 18%;
-  padding:1px;
+  padding: 1px;
   margin: 15px;
   -webkit-transition: margin 0.5s ease-out;
   -moz-transition: margin 0.5s ease-out;
   -o-transition: margin 0.5s ease-out;
-
 }
 #other:hover {
-  margin-top:2px;
+  margin-top: 2px;
 }
-#other h2:hover{
+#other h2:hover {
   color: #C71585;
 }
 
-#aboutUs{
+#aboutUs {
   color: white;
   width: 18%;
-  padding:1px;
+  padding: 1px;
   margin: 15px;
   -webkit-transition: margin 0.5s ease-out;
   -moz-transition: margin 0.5s ease-out;
   -o-transition: margin 0.5s ease-out;
-
 }
 
 #aboutUs:hover {
-  margin-top:2px;
+  margin-top: 2px;
 }
-#aboutUs h2:hover{
+#aboutUs h2:hover {
   color: #C71585;
 }
 
-#mentorship{
+#mentorship {
   color: white;
   width: 18%;
-  padding:1px;
+  padding: 1px;
   margin: 15px;
   -webkit-transition: margin 0.5s ease-out;
   -moz-transition: margin 0.5s ease-out;
   -o-transition: margin 0.5s ease-out;
-
 }
 
 #mentorship:hover {
-  margin-top:2px;
+  margin-top: 2px;
 }
-#mentorship h2:hover{
+#mentorship h2:hover {
   color: #C71585;
 }
 
-
-body{
-  background-color:#C9AFDB;
+body {
+  background-color: #C9AFDB;
 }
-button{
-  background-color:#C9AFDB;
-  font-family: 'Cormorant Garamond', serif;
-  color:white;
-  border:none;
-  font-size:15px;
+button {
+  background-color: #C9AFDB;
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  border: none;
+  font-size: 15px;
   font-size-adjust: 20px;
-
 }
 
-h4{
-  color:white;
-  font-family:'Cormorant Garamond', serif;
-  font-size:30px;
+h4 {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
 }
 
 /*
@@ -229,34 +217,42 @@ h4{
   animation: fadeIn 1s;
 }
 @-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-img{
+img {
   width: 40%;
   display: flex;
   align-items: center;
 }
 
-p{
-  color:white;
-  font-family:'Cormorant Garamond', serif;
+p {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
   font-size: 25px;
 }
 
-img{
-  width:80%;
-  height:700px;
+img {
+  width: 80%;
+  height: 700px;
 }
 .slideshow-container {
-  width:100%;
-  height:700px;
+  width: 100%;
+  height: 700px;
   position: relative;
   margin: auto;
 }
@@ -265,11 +261,12 @@ img{
   display: none;
 }
 
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
-/*   right:50%; */
+  /*   right:50%; */
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -290,8 +287,9 @@ img{
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .dot {
@@ -305,7 +303,8 @@ img{
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -318,40 +317,51 @@ img{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
-h4{
-  font-size:50px;
+h4 {
+  font-size: 50px;
 }
-.flag{
-  height:300px;
-  width:35%;
+.flag {
+  height: 300px;
+  width: 35%;
 }
 
-p{
+p {
   font-color: white;
 }
-.goabroad{
-  height:50px;
-  width:250px;
-  object-fit:cover;
+.goabroad {
+  height: 50px;
+  width: 250px;
+  object-fit: cover;
 }
-.go{
-  border:none;
-  border-top:7px dashed;
-  color:#fff;
-  display:flex;
-  justify-content:space-between;
+.go {
+  border: none;
+  border-top: 7px dashed;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
   float: left;
-  margin-left:0px;
-  margin-right:0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
-.text{
-  margin:80px;
+.text {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  margin: 80px;
 }
