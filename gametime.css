@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fullpage {
+  background-color: white;
+  width: 100%;
+  height: 81px;
+  margin: auto;
+}
+
+.menubar {
+  font-family: "Cormorant Garamond", serif;
+  justify-content: space-between;
+  margin-top: 3%;
+  position: fixed;
+}
+
+.menubar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  color: white;
+  background-color: #C9AFDB;
+  align-items: center;
+  direction: column;
+}
+
+.title {
+  height: 50px;
+  width: 20%;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 5%;
+}
+
+#home {
+  width: 18%;
+  padding: 5px;
+  float: right;
+  margin: 20px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+#home:hover {
+  margin-top: 2px;
+}
+#home h2:hover {
+  color: #C71585;
+}
+
+#gametime {
+  color: white;
+  width: 18%;
+  padding: 5px;
+  margin: 10px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+#gametime:hover {
+  margin-top: 2px;
+}
+#gametime h2:hover {
+  color: #C71585;
+}
+
+#other {
+  color: white;
+  width: 18%;
+  padding: 1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+#other:hover {
+  margin-top: 2px;
+}
+#other h2:hover {
+  color: #C71585;
+}
+
+#aboutUs {
+  color: white;
+  width: 18%;
+  padding: 1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+#aboutUs:hover {
+  margin-top: 2px;
+}
+#aboutUs h2:hover {
+  color: #C71585;
+}
+
+#mentorship {
+  color: white;
+  width: 18%;
+  padding: 1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+#mentorship:hover {
+  margin-top: 2px;
+}
+#mentorship h2:hover {
+  color: #C71585;
+}
+
+
+button {
+  background-color: #C9AFDB;
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-size-adjust: 20px;
+}
+
+.t {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  background-color:#C9AFDB;
+}
