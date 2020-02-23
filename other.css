@@ -161,7 +161,7 @@ button {
   height: auto;
   margin: auto;
   padding: 175px;
-  background-color:#CDF2C4;
+  background-color:#99D5C9;
 }
 
 #source1 {
@@ -173,7 +173,7 @@ button {
 }
 
 #source1text {
-  color: #5D737E;
+  color: white;
   font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   text-align: center;
@@ -185,7 +185,7 @@ button {
   height: auto;
   margin: auto;
   padding: 175px;
-  background-color:#84DCC6;
+  background-color:#99D5C9;
 }
 
 #source2 {
@@ -197,7 +197,7 @@ button {
 }
 
 #source2text {
-  color: #5D737E;
+  color: white;
   font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   text-align: center;
@@ -209,7 +209,7 @@ button {
   height: auto;
   margin: auto;
   padding: 175px;
-  background-color:#9F838C;
+  background-color:#99D5C9;
 }
 
 #source3 {
@@ -221,7 +221,7 @@ button {
 }
 
 #source3text {
-  color: #5D737E;
+  color: white;
   font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   text-align: center;
