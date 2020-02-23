@@ -138,9 +138,20 @@ button {
   margin: auto;
   padding: 175px;
   background-color:#C9AFDB;
+}
+
+#title {
   font-family: "Cormorant Garamond", serif;
   color: white;
-  border: none;
-  font-size: 50px;
-  font-size-adjust: 20px;
+  font-size: 70px;
+  text-align: center;
+
+}
+
+#summary {
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  font-size: 35px; 
+  text-align: center;
+
 }
